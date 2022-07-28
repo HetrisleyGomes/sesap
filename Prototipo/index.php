@@ -12,7 +12,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <style>
+            .colunas {
+            display: flex;
+            width: 100%;
+            max-width: 100%;
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+            margin-top: var(--bs-gutter-y);
+            }
+            main{
+                width: 90%;
+                height: 100%;
+            }
+            img.img {
+                size: auto;
+            }
+            .c-1 {
+                background-color: #EEEEEE;
+                width: 40%;
+            }
+            .c-2 {
+                background-color: #023047;
+                color: #EEEEEE;
+                width: 60%;
+                padding-left: 2%;
+            }
+            .bgcw {
+                background-color: #EEEEEE;
+                padding: 10px;
+                border-radius: 40px;
+            }
+            .botaoindex:hover{
+                color: var(--bs-btn-hover-color);
+                background-color: var(--bs-btn-hover-bg);
+                border-color: var(--bs-btn-hover-border-color);
+            }
+            .btn-outline-danger{
+                background-color: blue;
+            }
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Login</title>
 </head>
